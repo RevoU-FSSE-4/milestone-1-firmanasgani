@@ -48,6 +48,7 @@ section {
     background-image: url('../img/background.jpg');
     background-color: #534032;
     background-position: top;
+    object-fit:fill ;
     background-repeat: no-repeat;
     height: 400px;
     width: 100vw;
@@ -114,6 +115,58 @@ footer .text-footer {
 footer a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Pages newsletter */ 
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.img-newsletter {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+input {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    width: 300px; 
+}
+
+.btn {
+    padding: 5px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    background-color: #534032;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(70%);
+}
+
+input::placeholder {
+    text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
