@@ -5,16 +5,45 @@
 }
 
 header{
+    font-size: 1.75rem;
     display: flex;
     height: 150px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(34, 32, 32, .75);
 }
 
+.left .img-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.banner h3 {
+    text-align: center;
+    font-style: italic;
+}
+
 .center {
     color: wheat;
-    font-size: 1.75rem;
 }
 .center a {
     color: white;
