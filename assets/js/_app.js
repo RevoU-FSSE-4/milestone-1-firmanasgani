@@ -13,5 +13,3 @@ function index()  {
 
   document.getElementById('article').innerHTML = article
 }
-
-index()
