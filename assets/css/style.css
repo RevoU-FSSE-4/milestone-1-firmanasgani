@@ -4,9 +4,34 @@
     margin: 0px;
 }
 
+header{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 32, 32, .75);
+}
+
+.center {
+    color: wheat;
+    font-size: 1.75rem;
+}
+.center a {
+    color: white;
+    text-decoration: none;
+}
+
+.center a:hover {
+    text-decoration:underline;
+}
+
 footer {
     display: flex;
     justify-content: center;
+}
+
+footer .text-footer {
+    font-size: .75rem;
 }
 
 footer a {
