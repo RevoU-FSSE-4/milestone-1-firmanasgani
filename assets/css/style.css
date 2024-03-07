@@ -191,6 +191,7 @@ input::placeholder {
 }
 
 /* Css for Blog */
+
 .character {
   display: flex;
   justify-content: center;
@@ -200,8 +201,18 @@ input::placeholder {
 
 .character h1 {
   text-align: center;
+  color: white;
   margin: 100px;
 }
+
+.blog {
+  background-image: url('../img/background3.jpg');
+  height: 500px;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+
 
 .list {
   background-color: #534032;
@@ -215,16 +226,23 @@ input::placeholder {
 .list ul li {
   display: inline;
   width: 100%;
-  margin: 30px;
+  margin: 5px;
   cursor: pointer;
   text-align: center;
   justify-content: space-around;
   flex-direction: row;
+  border: 1px solid #d33;
+  padding: 5px;
+  background-color: #d33;
+  border-radius: 16px;
+
 }
 
 .list ul li:hover {
   text-decoration: line-through;
   color: #d33;
+  background-color: #fff;
+  border: none;
 }
 
 .row {
@@ -235,6 +253,8 @@ input::placeholder {
   justify-content: center;
   align-items: center;
 }
+
+
 
 @media screen and (max-width: 1100px) {
   .responsive {
@@ -267,6 +287,11 @@ input::placeholder {
 
   .banner h3 {
     font-weight: 200;
+  }
+
+  .list {
+    height: 450px;
+    justify-content: center;
   }
 
   .list ul li {
